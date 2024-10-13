@@ -14,6 +14,7 @@
 #include "esphome/core/automation.h"
 
 namespace esphome {
+namespace components {
 namespace sim7600 {
 
 const uint16_t SIM7600_READ_BUFFER_LENGTH = 1024;
@@ -220,4 +221,5 @@ template<typename... Ts> class Sim7600DisconnectAction : public Action<Ts...> {
 };
 
 }  // namespace sim7600
+}  // namespace components
 }  // namespace esphome
